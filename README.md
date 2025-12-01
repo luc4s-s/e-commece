@@ -27,3 +27,5 @@ Compras de Produtos
 [x] Gestão do Carrinho: Visualização, atualização e remoção de itens do carrinho.
 
 [x] Finalização de Compra: Fluxo de checkout simplificado.
+
+![imagem do projeto ](src/assets/img-ecommece.png)
