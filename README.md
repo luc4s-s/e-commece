@@ -1,16 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 E-Commece
 
-Currently, two official plugins are available:
+Este projeto é uma aplicação de e-commerce simplificada, focada em fornecer uma experiência de compras de produtos fluida e informativa. A solução lida com o gerenciamento de produtos e a interação com o carrinho de compras, utilizando integrações para enriquecer a visualização dos itens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias usadas
+- React / JavaScript  
+- html
+- css
+- API Json
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+🛒 Funcionalidades
+Abaixo estão as principais funcionalidades implementadas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Compras de Produtos
+
+[x] Adiciona a quantidade de produto ao selecionar um item.
+
+[x] Integração com API externa para exibir as imagens dos produtos.
+
+[x] Mostra uma mensagem de confirmação logo após o produto ser adicionado ao carrinho.
+
+[x] Gestão do Carrinho: Visualização, atualização e remoção de itens do carrinho.
+
+[x] Finalização de Compra: Fluxo de checkout simplificado.
