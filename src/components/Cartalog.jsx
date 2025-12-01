@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Product from "./Product";
 import productsData from "../data/products_mock.json";
 
-const Catalog = ({ onAddToCart }) => {
+const Cartalog = ({ onAddToCart }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const Catalog = ({ onAddToCart }) => {
   );
 };
 
-export default Cartalog
+export default Cartalog;
