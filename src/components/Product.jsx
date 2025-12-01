@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useState } from "react";
 
-const Product = () => {
+//O componente --Product-- exibe as informações de um produto, permite que o usuário 
+// selecione uma quantidade e adicione o item ao carrinho, comunicando-se com o componente
+//  pai via callback.
+
+const Product = ({ product, onAddToCart }) => {
+  const [quantity, setQuantity] = useState(1);
+
   return (
-    <div>Product</div>
-  )
-}
-
+    <div className="product">
+      <img src={product.image} alt={product.name} />
+      <h3>{product.name}</h3>
+      <p>${product.price.toFixed(2)}</p>
+      <div className="cart-buttons">
+        <select value={quantity} onChange={(e) => setQuantity(e.target.value)}>
+          {[...Array(10).keys()].map((x) => (
+            <option key={x + 1} value={x + 1}>
+              {x + 1}
+            </option>
+          ))}
+        </select>
+        <button onClick={() => onAddToCart(product, quantity)}>
+          Adicionar ao Carrinho
+        </button>
+      </div>
+    </div>
+  );
+};
 export default Product
