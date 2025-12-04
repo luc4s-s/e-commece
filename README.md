@@ -15,13 +15,13 @@ Este projeto é uma aplicação de e-commerce simplificada, focada em fornecer u
 
 ## ⚙ Como rodar o projeto
 1 - Clone o repositório
-    • git clone (url)
+    - git clone (url)
 
 2 - Instale as dependeências
-    • npm install
+    - npm install
 
 3 - Execute o projeto
-    •npm run dev
+    - npm run dev
 
 ---
 
