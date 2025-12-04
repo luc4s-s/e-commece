@@ -1,5 +1,5 @@
 
-📌 E-Commece
+## 📌 E-Commece
 
 Este projeto é uma aplicação de e-commerce simplificada, focada em fornecer uma experiência de compras de produtos fluida e informativa. A solução lida com o gerenciamento de produtos e a interação com o carrinho de compras, utilizando integrações para enriquecer a visualização dos itens.
 
@@ -13,8 +13,19 @@ Este projeto é uma aplicação de e-commerce simplificada, focada em fornecer u
 
 ---
 
-🛒 Funcionalidades
-Abaixo estão as principais funcionalidades implementadas:
+## ⚙ Como rodar o projeto
+1 - Clone o repositório
+    • git clone (url)
+
+2 - Instale as dependeências
+    • npm install
+
+3 - Execute o projeto
+    •npm run dev
+
+---
+
+## 🛒 Funcionalidades
 
 Compras de Produtos
 
